@@ -2,7 +2,7 @@
 
 This repository is about databases technologies.
 
-## How to install MySQL and config an user root with simple password, just for train:
+## How to install MySQL and config an user root with simple password:
 Install on Ubuntu:
 ```sql
 sudo apt update
