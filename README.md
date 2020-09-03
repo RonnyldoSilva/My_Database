@@ -10,3 +10,9 @@ sudo apt install mysql-server
 sudo mysql_secure_installation
 ### set password "root"
 ```
+
+Config the user root with "root" as password, on terminal runs `mysql -u root -p`. On mysql prompt runs:
+```mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+flush privileges;
+```
